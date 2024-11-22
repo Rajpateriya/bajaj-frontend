@@ -3,9 +3,8 @@
 }
 
 .App-logo {
-  height: 80px;
+  height: 40vmin;
   pointer-events: none;
-  margin: 20px 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -16,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  padding: 20px;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,10 +24,8 @@
   color: white;
 }
 
-.App-main {
-  padding: 20px;
-  min-height: calc(100vh - 120px);
-  background-color: #f0f2f5;
+.App-link {
+  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
